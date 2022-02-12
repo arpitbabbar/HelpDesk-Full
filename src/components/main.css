@@ -1,0 +1,11 @@
+.center {
+    background: url("../istockphoto-1168823446-170667a.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  /* height: 100%; */
+  /* position: relative; */
+  /* width: 100%; */
+}
