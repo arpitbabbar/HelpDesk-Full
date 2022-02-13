@@ -267,3 +267,17 @@
   color: #ffeba7;  
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);  
  }  
+
+ .appointment {
+   margin-top: 30px;
+   font-size: 2rem;
+   color: black;
+   cursor: pointer;
+  text-decoration: underline;
+  font-style: italic;
+  transition: ease all 0.5s;
+ }
+
+ .appointment:hover {
+   color: blue;
+ }
