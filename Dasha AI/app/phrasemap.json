@@ -1,0 +1,183 @@
+{
+  "default": {
+    "voiceInfo": {
+      "lang": "en-US",
+      "speaker": "default",
+      "speed": 1
+    },
+
+    "phrases": {
+      "greeting": {
+        "first": [
+      
+          {  "text": "Welcome to HelpDesk! do you want any help "
+          }
+        ],
+        "repeat": [
+          { "text": "do you need help ?" }
+          
+        ]
+      },
+
+      "question_1": {
+        "first": [
+          {
+            "text": "ok, If you want to fix a new appointement say 1, if you want to check the statut of you appointement say 2!"
+          }
+        ],
+        "repeat": [
+          {
+            "text": "1 for new appointement. 2 for check the statut ?!"
+          }
+        ]
+      },
+
+      "i_will_call_back": [{ "text": "Okay, bye" }],
+      "hello": {
+        "random": [[{ "text": "Hello" }], [{ "text": "Umm, hello?" }], [{ "text": "Are you there?" }]]
+      },
+
+      "when_callback": [{ "text": "ok bye, if you need any help you can call me any time, have a nice day!" }],
+      "i_will_wait": {
+        "random": [[{ "text": "Okay, I'll wait" }], [{ "text": "Sure, I'll wait" }], [{ "text": "Okay, no problem!" }]]
+      },
+
+      "question_1_n": {
+        "first": [
+          { "text": "ok can you please tell us your full name?" }
+        ],
+        "repeat": [{ "text": "I was saying. you full name please?" }]
+      },
+
+      "question_2": {
+        "first": [
+          {
+            "text": "Thank you, can you tell us your full name?"
+          }
+        ],
+        "repeat": [{ "text": "I was saying. we need you full name, and your contact number?" }]
+      },
+
+      "question_2_n": {
+        "first": [
+          {
+            "text": "So sorry this appointement has been resheduled!"
+          }
+        ],
+        "repeat": [
+          { "text": "I was saying, we are really sorry but your appointement has been resheduled" }
+        ]
+      },
+
+      "question_3": {
+        "first": [
+          { "text": "ok.  the docotor name please ?" }
+        ],
+        "repeat": [{ "text": "I was saying. what is the name of the docotor that you need ?" }]
+      },
+
+      "question_3_n": {
+        "first": [
+          {
+            "text": "sorry, this docotor is not avalaible in this time! "
+          }
+        ],
+        "repeat": [{ "text": "I was saying. how can we help you since your docotr is not avlaible?" }]
+      },
+
+      "question_3_p": {
+        "first": [
+          {
+            "text": "Thank you. Can you please tell us when you want to visit dr.smith ?"
+          }
+        ],
+        "repeat": [{ "text": "I was saying. when ?" }]
+      },
+
+      "final_q": {
+        "first": [{ "text": "Thank you so much. your appointement has been sheduled , see you in time. Anything else we should make note of?" }],
+        "repeat": [{ "text": "I was saying. Anything else we should make note of?" }]
+      },
+
+      "final_bye": {
+        "first": [
+          {
+            "text": "Thank you so much for your time, Bye!"
+          }
+        ],
+        "repeat": [{ "text": "I was saying. Anything else we should make note of?" }]
+      },
+
+      "transition": {
+        "first": [{ "text": "" }],
+        "repeat": [{ "text": "" }]
+      },
+
+      "i_can_hear_you": [{ "text": "Yes, I hear you" }],
+      "dont_understand": {
+        "random": [
+          [{ "text": "Sorry, could you say it again?" }],
+          [
+            {
+              "text": "Sorry, the connection dropped for a second. Could you say that again?"
+            }
+          ],
+          [{ "text": "Sorry, I didn't quite catch that." }],
+          [{ "text": "Could you say it one more time?" }]
+        ]
+      },
+      "dont_understand_hangup": [
+        {
+          "text": "I'm sorry I can barely hear you. I'll try to call you later! Bye!"
+        }
+      ],
+      "dont_understand_forward": [
+        {
+          "text": "I'm sorry, let me transfer you to another agent. Please stand by!"
+        }
+      ],
+      "mhm": [{ "text": "Mgm..." }],
+      "yes_i_am_a_robot": [
+        {
+          "text": "Actually I am an advanced AI. Just don't tell my boss or I'll be out of a job."
+        }
+      ],
+      "is_that_all": [{ "text": "Is that all?" }],
+      "repeat_question": [{ "text": "Can you repeat please?" }]
+    },
+
+    "types": {},
+    "macros": {
+      "question_1": {},
+      "transition": {},
+      "question_1_n": {},
+      "question_2": {},
+      "question_2_n": {},
+      "question_3": {},
+      "question_3_n": {},
+      "question_3_p": {},
+      "final_q": {},
+      "final_bye": {},
+      "i_will_call_back": {},
+      "see_you_soon": {},
+      "hello": {},
+      "when_callback": {},
+      "i_said": {},
+      "sorry_wont_call": {},
+      "i_will_wait": {},
+      "i_can_hear_you": {},
+      "dont_understand": {},
+      "dont_understand_hangup": {},
+      "dont_understand_forward": {},
+      "mhm": {},
+      "yes_i_am_a_robot": {},
+      "is_that_all": {},
+      "greeting": {},
+      "name": {},
+      "will_help": {},
+      "how_much": {},
+      "confirm_food_order": {},
+      "repeat_question": {}
+    }
+  }
+}
